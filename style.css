@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+.container
+{
+    text-align: center;
+    background-color: rgb(156, 191, 219);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+}
+input
+{
+    width: 50%;
+    padding: 17px;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+    font-family: bold;
+    font-weight: bold;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+button
+{
+    padding: 17px;
+    margin-left: 4px;
+    border-radius: 15px;
+    font-family: bold;
+    font-weight: bold;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    font-size: 17px;
+}
+button:hover
+{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+.card
+{
+    position: relative;
+    text-align: center;
+    background-color: rgb(202, 222, 223);
+    margin-top: 7px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    font-size: 25px;
+    font-style: bold;
+    font-weight: bold;
+}
+.close
+{
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    left: 73%;
+    background-color: none;
+    font-size: 20px;
+    color: rgb(155, 33, 33);
+    border-radius: 50%;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card:hover .close
+{
+    opacity: 1;
+    cursor: pointer;
+}
